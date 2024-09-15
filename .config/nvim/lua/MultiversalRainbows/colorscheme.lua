@@ -52,7 +52,11 @@ M.highlight_group = function(pallette)
     SpecialKey = { fg = pallette.pink },
     Special = { fg = pallette.yellow },
     Title = { fg = pallette.yellow, style = 'bold' },
-    Identifier = { fg = pallette.blue, style = 'bold' },
+    Identifier = { fg = pallette.lightBlue, style = 'bold' },
+
+    NoiceCmdline = { fg = pallette.white, bg = pallette.base2 },
+    NoiceCmdlinePopup = { fg = pallette.white, bg = pallette.base2 },
+    NoicePopup = { fg = pallette.white, bg = pallette.base2 },
 
     -- Git colors --
     DiffAdd = { bg = pallette.diff_add },

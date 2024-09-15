@@ -7,7 +7,6 @@ return {
       configs.setup({
           ensure_installed = {
 		  "lua",
-		  "vim",
 		  "javascript",
 		  "regex",
 		  "bash",

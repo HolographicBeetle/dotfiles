@@ -19,6 +19,9 @@ vim.opt.clipboard = 'unnamedplus'
 -- Enable break indent
 vim.opt.breakindent = true
 
+-- Uses terminal colors
+vim.opt.termguicolors = true 
+
 -- Save undo history
 vim.opt.undofile = true
 
