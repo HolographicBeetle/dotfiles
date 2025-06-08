@@ -1,0 +1,69 @@
+#waybar {
+    background-color: rgba(0, 0, 20, 180); /* Dark semi-transparent background */
+font-family: FiraCode Nerd Font;
+	font-weight: normal;
+	font-size: 13px;
+	border: 0px;
+}
+
+#tray,
+#clock,
+#network,
+#battery,
+#language,
+#backlight,
+#workspaces,
+#wireplumber,
+#keyboard-state,
+#power-profiles-daemon
+{
+	background-color: rgba(0, 0, 0, 0);
+	color: #0bc0d5;
+	padding: 0px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 4px;
+	margin-right: 4px;
+	border-radius: 10px;
+}
+
+#clock,
+#language,
+#backlight,
+#wireplumber
+{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+#battery,
+#network,
+#power-profiles-daemon
+{
+	padding-left: 16px;
+	padding-right: 22px;
+}
+
+#workspaces button {
+	color: #0bc0d5;
+	padding: 3px;
+	border-radius: 8px;
+	box-shadow: none;
+	text-shadow: none;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#workspaces button:hover {
+	background: #00ffd8;
+	color: #000014;
+}
+
+#workspaces button.active {
+	border: 1px solid #00ffd8;
+}
+
+#keyboard-state label, #keyboard-state label.locked {
+	margin-left: 12px;
+	margin-right: 12px;
+}
