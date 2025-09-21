@@ -1,0 +1,51 @@
+profile "LaptopScreen" {
+	output eDP-1 {
+		mode 1920x1080@120.21
+		position 0,0
+		scale 1
+	}
+}
+
+profile "LaptopAndScreen" {
+	output eDP-1 {
+		mode 1920x1080@120.21
+		position -1920,0
+		scale 1
+	}
+	output HDMI-A-1 {
+		mode 1920x1080@60.00
+		position 0,0
+		scale 1
+	}
+}
+
+profile "LaptopAndTwoScreens"{
+	output eDP-1 {
+		mode 1920x1080@120.21
+		position 1920,0
+		scale 1
+	}
+	output HDMI-A-1 {
+		mode 1920x1080@60.00
+		position -1920,0
+		scale 1
+	}
+	output DP-1 {
+		mode 1920x1080@60.00
+		position 0,0
+		scale 1
+	}
+}
+
+profile "TwoScreens" {
+	output HDMI-A-1 {
+		mode 1920x1080@60.00
+		position -1920,0
+		scale 1
+	}
+	output DP-1 {
+		mode 1920x1080@60.00
+		position 0,0
+		scale 1
+	}
+}

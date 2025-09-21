@@ -8,3 +8,5 @@ export NVIM_DEVNOTES_PATH='~/nvim-plugins/devnotes.nvim'
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 export TMUX_PLUGIN_MANAGER_PATH='~/.tmux/plugins/'
 export NVM_DIR="$HOME/.nvm"
+export WLR_NO_HARDWARE_CURSOR=1
+export MOZ_ENABLE_WAYLAND=1

@@ -53,3 +53,4 @@ fi
 envsubst < ~/templates/termux.properties > ~/.termux/colors.properties
 envsubst < ~/templates/palette.lua > ~/.palette.lua
 envsubst < ~/templates/kitty.conf > ~/.config/kitty/kitty.conf
+envsubst < ~/templates/ghostty.conf > ~/.config/ghostty/config
