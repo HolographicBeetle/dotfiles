@@ -51,7 +51,7 @@ if [[ -f "$HOME/.localvars.sh" ]]; then
 fi
 
 if [[ ! -v PALETTE ]]; then
-	export PALETTE=.default.sh
+	export PALETTE=default.sh
 fi
 
 source "$HOME/.palettes/$PALETTE"
