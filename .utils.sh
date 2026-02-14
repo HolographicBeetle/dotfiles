@@ -50,7 +50,14 @@ if [[ -f "$HOME/.localvars.sh" ]]; then
 	source "$HOME/.localvars.sh"
 fi
 
+if [[ ! -v PALETTE ]]; then
+	export PALETTE=.default.sh
+fi
+
+source "$HOME/.palettes/$PALETTE"
+
 envsubst < ~/templates/termux.properties > ~/.termux/colors.properties
 envsubst < ~/templates/palette.lua > ~/.palette.lua
 envsubst < ~/templates/kitty.conf > ~/.config/kitty/kitty.conf
 envsubst < ~/templates/ghostty.conf > ~/.config/ghostty/config
+envsubst < ~/templates/waybar.css > ~/.config/waybar/style.css

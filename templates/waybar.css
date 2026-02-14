@@ -19,7 +19,7 @@ font-family: Victor Mono;
 #power-profiles-daemon
 {
 	background-color: rgba(0, 0, 0, 0);
-	color: #3E5A80;
+	color: $COLOR_04;
 	padding: 2px;
 	margin-top: 2px;
 	margin-bottom: 2px;
@@ -46,7 +46,7 @@ font-family: Victor Mono;
 }
 
 #workspaces button {
-	color: #3E5A80;
+	color: $COLOR_04;
 	padding: 1px;
 	border-radius: 8px;
 	box-shadow: none;
@@ -56,12 +56,12 @@ font-family: Victor Mono;
 }
 
 #workspaces button:hover {
-	background: #90C5E8;
+	background: $COLOR_12;
 	color: #000014;
 }
 
 #workspaces button.active {
-	border: 1px solid #90C5E8;
+	border: 1px solid $COLOR_12;
 }
 
 #keyboard-state label, #keyboard-state label.locked {

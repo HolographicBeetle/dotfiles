@@ -1,6 +1,5 @@
 source "$HOME/.aliases.sh"
 source "$HOME/.vars.sh"
-source "$HOME/.palette.sh"
 source "$HOME/.utils.sh"
 
 autoload -U colors && colors
@@ -24,3 +23,7 @@ zstyle :compinstall filename '/home/holohraphic_beetle/.zshrc'
 compinit
 
 bindkey -s ^f "tmux_sessionize\n"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
