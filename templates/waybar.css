@@ -1,6 +1,6 @@
 
 #waybar {
-    background-color: rgba(0, 0, 20, 180); /* Dark semi-transparent background */
+    background-color: $COLOR_12; /* Dark semi-transparent background */
 font-family: Victor Mono;
 	font-weight: normal;
 	font-size: 13px;

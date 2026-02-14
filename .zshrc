@@ -17,7 +17,7 @@ setopt ignore_eof
 
 
 newline=$'\n'
-PROMPT='╭ %B%{%F{4}%}%n@%m %{%F{7}%}%~ %{%F{3}%}$(parse_git_branch) %{$reset_color%}$(virtualenv_info)${newline}╰ > '
+PROMPT='╭ %B%{%F{4}%}%n@%m %{%F{6}%}%~ %{%F{3}%}$(parse_git_branch) %{$reset_color%}$(virtualenv_info)${newline}╰ > '
 
 zstyle :compinstall filename '/home/holohraphic_beetle/.zshrc'
 compinit

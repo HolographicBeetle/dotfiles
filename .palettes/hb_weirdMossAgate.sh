@@ -1,4 +1,4 @@
-export COLOR_00=#505050
+export COLOR_01=#505050
 export COLOR_01=#7B4579
 export COLOR_02=#705681
 export COLOR_03=#5B5681
